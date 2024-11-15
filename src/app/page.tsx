@@ -27,13 +27,9 @@ export default function Component() {
               <Link href="#contact" className="text-gray-600 hover:text-gray-900">
                 Contact
               </Link>
-              {/* <Button className="bg-green-600 text-white hover:bg-green-700">
-                CONTACT US
-              </Button> */}
             </div>
           </nav>
         </header>
-                {/* Home */}
         <main className="container mx-auto px-4">
           <section className="py-12">
             <div className="grid lg:grid-cols-2 gap-12 items-center">
@@ -72,7 +68,6 @@ export default function Component() {
               </div>
             </div>
           </section>
-                {/* Services */}
           <section id="services" className="py-20">
             <div className="text-center mb-16 space-y-4">
               <h2 className="text-4xl font-bold text-black">Our Core Services</h2>
@@ -98,7 +93,7 @@ export default function Component() {
                   </div>
                   <h3 className="font-semibold text-xl text-black">Civic Education</h3>
                   <p className="text-gray-600">
-                    We offer detailed civic education programs to enhance citizens' understanding of their rights and responsibilities within
+                    We offer detailed civic education programs to enhance citizens&apos; understanding of their rights and responsibilities within
                     the community.
                   </p>
                 </div>
@@ -153,14 +148,13 @@ export default function Component() {
                   </div>
                   <h3 className="font-semibold text-xl text-black">Community Outreach</h3>
                   <p className="text-gray-600">
-                    Engaging with communities directly to understand their needs and deliver targeted support where it's most
+                    Engaging with communities directly to understand their needs and deliver targeted support where it&apos;s most
                     needed.
                   </p>
                 </div>
               </div>
             </div>
           </section>
-                {/* Mission */}
           <section className="py-20">
             <div className="relative bg-green-600 rounded-3xl overflow-hidden">
               <div className="absolute inset-0">
@@ -193,10 +187,8 @@ export default function Component() {
               </div>
             </div>
           </section>
-                  {/* Projects */}
           <section id="portfolio" className="py-20">
             <div className="space-y-4 mb-16">
-              {/* <p className="text-green-600">Portfolio</p> */}
               <h2 className="text-4xl font-bold text-black">Our Impactful Projects</h2>
               <p className="text-gray-600 max-w-3xl">
                 Discover some of the transformative projects we have implemented to support communities and drive meaningful change.
@@ -256,7 +248,6 @@ export default function Component() {
               </div>
             </div>
           </section>
-                  {/* Testimonials */}
           <section className="py-20">
             <div className="text-center space-y-4 mb-16">
               <h2 className="text-4xl font-bold text-black">Customer Testimonials</h2>
@@ -266,8 +257,8 @@ export default function Component() {
             </div>
 
             <div className="relative max-w-4xl mx-auto">
-              <div className="absolute -top-8 left-0 text-green-200 text-[150px] font-serif"></div>
-              <div className="absolute -bottom-8 right-0 text-green-200 text-[150px] font-serif rotate-180"></div>
+              <div className="absolute -top-8 left-0 text-green-200 text-[150px] font-serif">{'\u201C'}</div>
+              <div className="absolute -bottom-8 right-0 text-green-200 text-[150px] font-serif rotate-180">{'\u201C'}</div>
               
               <div className="relative bg-white rounded-2xl p-8 md:p-12 shadow-lg">
                 <div className="grid md:grid-cols-[1fr,2fr] gap-8 items-center">
@@ -286,8 +277,8 @@ export default function Component() {
                   <div className="space-y-4">
                     <h3 className="text-2xl font-bold text-black">Invaluable Support</h3>
                     <blockquote className="text-gray-600 text-lg">
-                      "Sheria Mtaani has provided invaluable support to our community, significantly impacting
-                      our quality of life."
+                      &quot;Sheria Mtaani has provided invaluable support to our community, significantly impacting
+                      our quality of life.&quot;
                     </blockquote>
                     <footer className="font-medium">
                       - John Smith
@@ -297,7 +288,6 @@ export default function Component() {
               </div>
             </div>
           </section>
-                {/* About Us */}
           <section id="about" className="py-20">
             <div className="grid lg:grid-cols-2 gap-12 items-start">
               <div className="space-y-8">
@@ -351,10 +341,6 @@ export default function Component() {
                   with us, you become a vital part of a movement dedicated to fostering long-term
                   societal change.
                 </p>
-
-                {/* <Button className="bg-green-600 text-white hover:bg-green-700">
-                  Learn More
-                </Button> */}
               </div>
 
               <div className="relative">
@@ -381,13 +367,12 @@ export default function Component() {
               </div>
             </div>
           </section>
-                {/* Contact Us */}
           <section id="contact" className="py-20">
             <div className="bg-white rounded-3xl shadow-2xl overflow-hidden">
               <div className="grid lg:grid-cols-[2fr,3fr]">
                 <div className="bg-green-600 p-8 lg:p-12 text-white">
                   <h2 className="text-3xl font-bold mb-6">CONTACT US</h2>
-                  <h3 className="text-2xl font-semibold mb-6">Let's talk</h3>
+                  <h3 className="text-2xl font-semibold mb-6">Let&apos;s talk</h3>
                   <div className="space-y-4">
                     <div className="flex items-center gap-4">
                       <MapPin className="w-6 h-6" />
@@ -457,7 +442,6 @@ export default function Component() {
             </div>
           </section>
         </main>
-                {/* Footer */}
         <footer className="bg-green-50 py-20">
             <div className="container mx-auto px-4">
               <div className="content-container">
